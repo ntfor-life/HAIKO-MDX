@@ -12,7 +12,7 @@
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/p9aqqe.jpg" width="700"/>
+  <img src="https://files.catbox.moe/voqg33.jpg" width="700"/>
 </p>
 
 ---
@@ -220,7 +220,7 @@ The developer is not responsible for any misuse or bans.
 
 ---
 
-<a href="https://wa.me/529541094055?text=âš¡%20HELLO%20PROFESSEUR%20%20 %20âš¡">
+<a href="https://wa.me/529633982655?text=âš¡%20HELLO%20PROFESSEUR%20%20 %20âš¡">
   <img alt="Contact WhatsApp" src="https://img.shields.io/badge/DEV-âš¡PROFESSEUR%20%20 âš¡-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
