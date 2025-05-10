@@ -34,23 +34,7 @@
 
 ---
 
- Features
-
-- QR Code Generator for WhatsApp Pairing
- 
-- Session Sharing System
- 
-- Fully Open Source
- 
-- Auto QR to DM
- 
-- Session ID Generator (HAIKO-SESSION-ID)
- 
-- Multi Deploy Options (Render, Heroku, Koyeb, etc.)
-
----
-
-Deploy Easily HAIKO-MDX 
+DEPLOY EASILY HAIKO-MDX 
 
 ### Get Pairing Code ( SESSION ID )
 
