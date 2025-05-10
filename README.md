@@ -7,7 +7,7 @@
 
 ---
 
-<h1 align="center">THE NEXT GEN WHA BOT SIMPLE BY PROFESSEUR
+<h1 align="center">WHA BOT SIMPLE BY PROFESSEUR
 
 ---
 
