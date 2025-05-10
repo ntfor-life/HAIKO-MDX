@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('https://files.catbox.moe/pcb7ya.jpg');
+          return fs.readFileSync('https://files.catbox.moe/p9aqqe.jpg');
         }
       } else {
-        return fs.readFileSync('https://files.catbox.moe/pcb7ya.jpg');
+        return fs.readFileSync('https://files.catbox.moe/p9aqqe.jpg');
       }
     };
 
@@ -125,7 +125,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363397722863547@newsletter',
-          newsletterName: "MYSTIC HAIKO",
+          newsletterName: "PROFESSEUR",
           serverMessageId: 143
         }
       }
@@ -347,7 +347,7 @@ ${menuResponse}
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363397722863547@newsletter',
-            newsletterName: "MYSTIC HAIKO",
+            newsletterName: "PROFESSEUR",
             serverMessageId: 143
           }
         }
