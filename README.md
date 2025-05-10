@@ -130,6 +130,9 @@ AUTO_BLOCK=true
 AUTO_REACT=false
 PREFIX="."
 ```
+---
+
+¨ CONFIGURATION (Modify `node.js` File)
 
 ```
 name: Node.js CI
