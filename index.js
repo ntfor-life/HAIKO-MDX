@@ -114,25 +114,25 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Connected Successfully HAIKO-MDX 🍁"));
+                    console.log(chalk.green("Connected Successfully HAIKO-MDX ♻️"));
                     Matrix.sendMessage(Matrix.user.id, { 
-                        image: { url: "https://files.catbox.moe/pcb7ya.jpg" }, 
+                        image: { url: "https://files.catbox.moe/voqg33.jpg" }, 
                         caption: `╓─────────────────╖
 │WELCOME TO HAIKO-MDX
 ╙─────────────────╜
-*🎗️ Hello there User! 👋🏻*
+*🧸 Hello there User! 💱*
 
 ════════════════════
-🎗️ CHANNEL : https://whatsapp.com/channel/0029VbADTgbGzzKPWZ5MC52T
+👻 CHANNEL : https://whatsapp.com/channel/0029VbADTgbGzzKPWZ5MC52T
 
 ═══════════════════
-*🎗️ Your Prefix:* = *${prefix}*
+*🦞 Your Prefix:* = *${prefix}*
 ═══════════════════
 
-🎗️ REPO : https://github.com/Professeur-xd/HAIKO-MDX
+😈 REPO : https://github.com/Professeur-xd/HAIKO-MDX
 
 ╚══════════════════╝
-       © MYSTIC HAIKO`
+       © DEV PROFESSEUR`
                     });
                     initialConnection = false;
                 } else {
