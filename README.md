@@ -94,9 +94,9 @@ DEPLOY EASILY HAIKO-MDX
 
 ---
 
-¨ CONFIGURATION (Modify `.env` File)
+¨ ⚙️ CONFIGURATION `.env` File
 
-```
+```env
 SESSION_ID="HAIKO~MDX~"
 AUTO_READ_STATUS=true
 STATUS_READ_MSG="*Status Seen By HAIKO-MDX âš¡*"
@@ -107,7 +107,7 @@ WELCOME=false
 AUTO_READ_MESSAGES=false
 AUTO_TYPING=false
 OWNER_NAME="HAIKO MDX"
-OWNER_NUMBER="522219610140"
+OWNER_NUMBER="529633982655"
 AUTO_RECORDING=false
 ALWAYS_ONLINE=false
 AUTO_BLOCK=true
@@ -116,7 +116,7 @@ PREFIX="."
 ```
 ---
 
-¨ CONFIGURATION (Modify `node.js` File)
+¨ ⚙️ CONFIGURATION `node.js` File
 
 ```
 name: Node.js CI
