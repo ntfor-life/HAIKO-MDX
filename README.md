@@ -36,7 +36,7 @@
 
 DEPLOY EASILY HAIKO-MDX 
 
-### Get Pairing Code ( SESSION ID )
+### Get Pairing Code SESSION ID
 
 
 [![HAIKO MDX SESSION](https://img.shields.io/badge/HAIKO%20-MDX%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-session.onrender.com)
@@ -52,7 +52,7 @@ DEPLOY EASILY HAIKO-MDX
 
 ---
 
- DEPLOY HAIKO-MDX
+### DEPLOY HAIKO-MDX
 
 <p align="center">
   <a href="https://replit.com/Professeur-xd">
@@ -80,7 +80,7 @@ DEPLOY EASILY HAIKO-MDX
 
 ---
 
- DOWNLOAD FILE HAIKO-MDX
+ ### DOWNLOAD FILE HAIKO-MDX
 
 <p align="center">
   <a href="https://github.com/Professeur-xd/HAIKO-MDX/archive/refs/heads/main.zip">
@@ -94,7 +94,7 @@ DEPLOY EASILY HAIKO-MDX
 
 ---
 
-¨ ⚙️ CONFIGURATION `.env` File
+### ⚙️ CONFIGURATION `.env` File
 
 ```env
 SESSION_ID="HAIKO~MDX~"
@@ -116,7 +116,7 @@ PREFIX="."
 ```
 ---
 
-¨ ⚙️ CONFIGURATION `node.js` File
+### ⚙️ CONFIGURATION `node.js` File
 
 ```
 name: Node.js CI
