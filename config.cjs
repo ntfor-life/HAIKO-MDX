@@ -25,10 +25,10 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
   BOT_NAME: process.env.BOT_NAME || "HAIKO-MDX-V1",
-  MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/p9aqqe.jpg",
+  MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/voqg33.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO HAIKO-MDX",
   OWNER_NAME: process.env.OWNER_NAME || "PROFESSEUR",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "529541094055",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "529633982655",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
