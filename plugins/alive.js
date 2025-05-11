@@ -1,37 +1,55 @@
-import fs from 'fs';
 import config from '../config.cjs';
 
-const alive = async (m, Matrix) => {
-  const uptimeSeconds = process.uptime();
-  const days = Math.floor(uptimeSeconds / (3600 * 24));
-  const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
-  const minutes = Math.floor((uptimeSeconds % 3600) / 60);
-  const seconds = Math.floor(uptimeSeconds % 60);
-  const timeString = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+const alive = async (m, gss) => {
+  try {
+    // Affiche le contenu du message pour le débogage
+    console.log('Message reçu:', m.body);
 
-  const prefix = config.PREFIX;
-  const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
+    const prefix = config.PREFIX;
+    const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
+    
+    const validCommands = ['alive', 'bot', 'test'];
+    if (!validCommands.includes(cmd)) return;
 
-  if (!['alive', 'uptime', 'runtime'].includes(cmd)) return;
+    const uptime = process.uptime();
+    const hours = Math.floor(uptime / 3600);
+    const minutes = Math.floor((uptime % 3600) / 60);
+    const seconds = Math.floor(uptime % 60);
 
-  const str = `*🤖 Bot Status: Online*\n*⏳ Uptime: ${timeString}*`;
+    // Affiche l'expéditeur pour le débogage
+    console.log('Expéditeur:', m.sender);
 
-  await Matrix.sendMessage(m.from, {
-    image: fs.readFileSync('./media/khan.jpg'),
-    caption: str,
-    contextInfo: {
-      mentionedJid: [m.sender],
-      forwardingScore: 999,
-      isForwarded: true,
-      forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363397722863547@newsletter',
-        newsletterName: "MYSTIC-HAIKO",
-        serverMessageId: 143
+    const aliveMessage = `
+👋 Hello @${m.sender.split('@')[0]}
+
+✅ *HAIKO-MDX-V1is Alive!*
+
+⏱️ *Uptime:* ${hours}h ${minutes}m ${seconds}s  
+🔐 *Mode:* ${global.public ? 'Public' : 'Private'}  
+👑 *Owner:* ${config.OWNER_NUMBER}
+`.trim();
+
+    // Envoi du message avec l'image et le texte
+    await gss.sendMessage(m.from, {
+      image: { url: 'https://files.catbox.moe/voqg33.jpg' }, // Remplacer par ton image si nécessaire
+      caption: aliveMessage,
+      contextInfo: {
+        mentionedJid: [m.sender],
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363372853772240@newsletter',
+          newsletterName: "HAIKO-MDX-V1",
+          serverMessageId: 143
+        }
       }
-    }
-  }, {
-    quoted: m
-  });
+    }, { quoted: m });
+
+  } catch (err) {
+    // Log l'erreur dans la console et répond à l'utilisateur
+    console.error('Erreur de commande alive :', err);
+    m.reply(`❌ An error occurred while executing the alive command. Error: ${err.message}`);
+  }
 };
 
 export default alive;
