@@ -26,7 +26,7 @@ const newsletter = async (m, Matrix) => {
 
     // Message simulé transféré depuis un autre canal
     const fakeNewsletterJid = '120363372853772240@newsletter';
-    const fakeNewsletterName = 'Dybytech News';
+    const fakeNewsletterName = '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗 News';
     const serverMessageId = 101;
 
     const forwardText = `Forwarded from another newsletter:\n\n*${newsletterId}*`;
