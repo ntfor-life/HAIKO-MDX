@@ -7,12 +7,12 @@
 
 ---
 
-<h1 align="center">WHA BOT SIMPLE BY PROFESSEUR
+<h1 align="center">WHA BOT SIMPLE BY DEV PROFESSEUR
 
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/voqg33.jpg" width="700"/>
+  <img src="https://files.catbox.moe/sy6isf.jpg" width="700"/>
 </p>
 
 ---
