@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=1D51FFFF&center=true&vCenter=true&width=1000&height=200&lines=HAIKO-MDX;BY+PROFESSEUR+" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=1D51FFFF&center=true&vCenter=true&width=1000&height=200&lines=HAIKO-MDX;BY+DEV+PROFESSEUR" alt="Typing SVG" />
   </a>
 </p>
 
@@ -21,7 +21,7 @@
   <a href="https://github.com/Professeur-xd">
     <img title="Author" src="https://img.shields.io/badge/Author-PROFESSEUR%20-ff004d?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://whatsapp.com/channel/0029VbADTgbGzzKPWZ5MC52T">
+  <a href="https://whatsapp.com/channel/0029Vb9qyTY47XeJ7i0wcQ40">
     <img title="Join WhatsApp Channel" src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
@@ -39,7 +39,7 @@ DEPLOY EASILY HAIKO-MDX
 ### Get Pairing Code SESSION ID
 
 
-[![HAIKO MDX SESSION](https://img.shields.io/badge/HAIKO%20-MDX%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-session.onrender.com)
+[![HAIKO MDX SESSION](https://img.shields.io/badge/HAIKO%20-MDX%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://haiko-mdx-v2-session.onrender.com)
 ---
 
  Fork This Repository
@@ -178,7 +178,7 @@ jobs:
  Workflows File
 
 <p align="center">
-  <a href="https://whatsapp.com/channel/0029VbADTgbGzzKPWZ5MC52T">
+  <a href="https://whatsapp.com/channel/0029Vb9qyTY47XeJ7i0wcQ40">
     <img src="https://img.shields.io/badge/Check-Workflows-FF004D?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Check Workflows" />
   </a>
 </p>
@@ -187,7 +187,7 @@ jobs:
 
 <p align="center">
   <a href="https://github.com/Professeur-xd">
-    <img alt="Â© POWERED BY PROFESSEUR" src="https://img.shields.io/badge/Â©%20POWERED%20BY-PROFESSEUR%20 -ff0000?style=for-the-badge&logo=github" />
+    <img alt="Â© POWERED BY DEV PROFESSEUR" src="https://img.shields.io/badge/Â©%20POWERED%20BY-PROFESSEUR%20 -ff0000?style=for-the-badge&logo=github" />
   </a>
 </p>
 
@@ -234,5 +234,5 @@ Happy coding!
 ---
 
 <p align="center">
-  <img alt="Made By PROFESSEUR" src="https://img.shields.io/badge/Made%20by-PROFESSEUR%20-black?style=for-the-badge&logo=github" />
+  <img alt="Made By DEV PROFESSEUR" src="https://img.shields.io/badge/Made%20by-DEV PROFESSEUR%20-black?style=for-the-badge&logo=github" />
 </p>
